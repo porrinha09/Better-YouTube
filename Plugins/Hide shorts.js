@@ -8,8 +8,8 @@
 // @icon         https://raw.githubusercontent.com/porrinha09/Better-YouTube/main/Plugins/Icons/hide%20shorts.webp
 // @license MIT
 // @grant        none
-// @downloadURL https://update.greasyfork.org/scripts/486864/NoShorts%20%E2%80%93%20YT.user.js
-// @updateURL https://update.greasyfork.org/scripts/486864/NoShorts%20%E2%80%93%20YT.meta.js
+// @downloadURL https://raw.githubusercontent.com/porrinha09/Better-YouTube/main/Plugins/Hide%20shorts.js
+// @updateURL https://raw.githubusercontent.com/porrinha09/Better-YouTube/main/Plugins/Hide%20shorts.js
 // ==/UserScript==
 
 (function() {
