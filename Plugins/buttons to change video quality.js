@@ -10,8 +10,8 @@
 // @icon         https://raw.githubusercontent.com/porrinha09/Better-YouTube/main/assets/BetterYouTube.png
 // @grant        none
 // @run-at       document-idle
-// @downloadURL https://update.greasyfork.org/scripts/477219/YouTubecom%20quality%20change%20buttons%20%28Mobile%20%20Desktop%29.user.js
-// @updateURL https://update.greasyfork.org/scripts/477219/YouTubecom%20quality%20change%20buttons%20%28Mobile%20%20Desktop%29.meta.js
+// @downloadURL https://raw.githubusercontent.com/porrinha09/Better-YouTube/main/Plugins/buttons%20to%20change%20video%20quality.js
+// @updateURL https://raw.githubusercontent.com/porrinha09/Better-YouTube/main/Plugins/buttons%20to%20change%20video%20quality.js
 // ==/UserScript==
 
 (function() {
