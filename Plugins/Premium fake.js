@@ -19,8 +19,8 @@
 // @match        https://*.youtube.com/*
 // @match        *://*.youtube.com/*
 // @version       1.0.0
-// @downloadURL https://github.com/porrinha09/Better-YouTube/blob/main/Plugins/YouTube%20fake.js
-// @updateURL https://github.com/porrinha09/Better-YouTube/blob/main/Plugins/YouTube%20fake.js
+// @downloadURL https://raw.githubusercontent.com/porrinha09/Better-YouTube/main/Plugins/Premium%20fake.js
+// @updateURL https://raw.githubusercontent.com/porrinha09/Better-YouTube/main/Plugins/Premium%20fake.js
 // ==/UserScript==
 
 (function() {var css = [
