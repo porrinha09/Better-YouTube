@@ -1,44 +1,88 @@
 // ==UserScript==
-// @name         Hide shorts
-// @namespace    http://tampermonkey.net/
+// @name         buttons to change video quality
+// @namespace    m-youtube-com-quality-change-buttons
 // @version      1.0.0
 // @description  Better YouTube
 // @author       Kelvin zv
-// @match        https://www.youtube.com/*
-// @icon         https://raw.githubusercontent.com/porrinha09/Better-YouTube/main/Plugins/Icons/hide%20shorts.webp
-// @license MIT
+// @match        https://m.youtube.com/*
+// @match        https://youtube.com/*
+// @match        https://*.youtube.com/*
+// @icon         https://raw.githubusercontent.com/porrinha09/Better-YouTube/main/assets/BetterYouTube.png
 // @grant        none
-// @downloadURL https://raw.githubusercontent.com/porrinha09/Better-YouTube/main/Plugins/Hide%20shorts.js
-// @updateURL https://raw.githubusercontent.com/porrinha09/Better-YouTube/main/Plugins/Hide%20shorts.js
+// @run-at       document-idle
+// @downloadURL https://update.greasyfork.org/scripts/477219/YouTubecom%20quality%20change%20buttons%20%28Mobile%20%20Desktop%29.user.js
+// @updateURL https://update.greasyfork.org/scripts/477219/YouTubecom%20quality%20change%20buttons%20%28Mobile%20%20Desktop%29.meta.js
 // ==/UserScript==
 
 (function() {
-    'use strict';
 
-    function removeShorts() {
-        var titles = document.querySelectorAll("span#title");
-        titles.forEach(function(title) {
-            if (title.textContent.includes("Shorts")) {
-                var parentDiv = title.closest("div#dismissible, ytd-reel-shelf-renderer");
-                if (parentDiv) {
-                    parentDiv.parentNode.removeChild(parentDiv);
+    function addbuttons(){
+        document.getElementById("qualitybuttons").innerHTML = "";
+
+        var player = document.getElementById('movie_player');
+
+       player.click(); 
+        player.click();
+
+        const qualities = player.getAvailableQualityData();
+
+        qualities.forEach((q)=>{
+
+            let button = document.createElement('button');
+            button.setAttribute("quality", q.quality);
+            button.textContent = q.qualityLabel.replace("p50","p").replace("p60","p"); 
+            button.className = "qualitybutton";
+
+            button.style.margin = "4px";
+            button.style.padding = "4px";
+            button.style.position = "relative";
+
+            if( player.getPlaybackQualityLabel() == q.qualityLabel ){
+                button.style.backgroundColor = "darkorange";
+            } else{
+                button.style.backgroundColor = "green";
+            }
+
+            button.onclick = function() {
+                player.setPlaybackQualityRange( this.getAttribute("quality") );
+
+                document.querySelectorAll(".qualitybutton").forEach((btn)=>{
+                    btn.style.backgroundColor = "green";
+                });
+                this.style.backgroundColor = "darkorange";
+            };
+
+            let target = document.getElementById('qualitybuttons');
+            target.insertBefore(button, target.firstChild);
+
+        }); 
+
+    } 
+
+        setInterval(()=>{
+
+            if( document.getElementById("qualitybuttons") == undefined ){
+
+                let parent = document.getElementById('above-the-fold');
+
+                if( !parent ){
+                    parent = document.querySelector('.watch-below-the-player');
                 }
-            }
-        });
-     
-        var shortsTitles = document.querySelectorAll("span[aria-label='Shorts']");
-        shortsTitles.forEach(function(title) {
-            var parentDiv = title.closest("div#dismissible");
-            if (parentDiv) {
-                parentDiv.parentNode.removeChild(parentDiv);
-            }
-        });
-    }
 
-    function noShorts() {
-        removeShorts();
-        setTimeout(noShorts, 500); 
-    }
+                if( !parent ){
+                    parent = document.querySelector('.related-chips-slot-wrapper');
+                }
 
-    noShorts();
+                let wrapper = document.createElement('div');
+                wrapper.setAttribute("id","qualitybuttons");
+                parent.insertBefore(wrapper, parent.firstChild);
+                addbuttons();
+
+            }
+
+            if( document.getElementById("qualitybuttons").textContent.trim() === '' ){
+                addbuttons();
+            }
+        }, 1000);
+
 })();
