@@ -10,8 +10,8 @@
 // @icon         https://raw.githubusercontent.com/porrinha09/Better-YouTube/main/assets/BetterYouTube.png
 // @grant        none
 // @run-at       document-idle
-// @downloadURL https://raw.githubusercontent.com/porrinha09/Better-YouTube/main/Plugins/Premium%20fake.js
-// @updateURL https://raw.githubusercontent.com/porrinha09/Better-YouTube/main/Plugins/Premium%20fake.js
+// @downloadURL https://raw.githubusercontent.com/porrinha09/Better-YouTube/main/Plugins/buttons%20to%20change%20video%20quality.js
+// @updateURL https://raw.githubusercontent.com/porrinha09/Better-YouTube/main/Plugins/buttons%20to%20change%20video%20quality.js
 // ==/UserScript==
 
 (function() {
