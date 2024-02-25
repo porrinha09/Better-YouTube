@@ -7,10 +7,9 @@
 
 Better YouTube is a mod client for YouTube that improves your experience with plugins and themes
 
-[![Theme Split](https://betterdiscord.app/resources/branding/split.png)](https://betterdiscord.app/)
+[![Theme Split](https://raw.githubusercontent.com/porrinha09/Better-YouTube/main/assets/BetterYouTube.png)
 
 </div>
-
 
 
 # Installation
