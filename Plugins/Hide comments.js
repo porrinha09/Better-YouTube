@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Hide comments
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      1.0.0
 // @description  Better YouTube
 // @author       Kelvin zv
 // @include     http://www.youtube.com/*
