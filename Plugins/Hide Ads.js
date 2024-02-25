@@ -10,8 +10,8 @@
 // @icon         https://raw.githubusercontent.com/porrinha09/Better-YouTube/main/assets/BetterYouTube.png
 // @grant        none
 // @run-at       document-start
-// @downloadURL https://update.greasyfork.org/scripts/469376/Remove%20Ads%20Slots%20in%20YouTube%20Main%20Page.user.js
-// @updateURL https://update.greasyfork.org/scripts/469376/Remove%20Ads%20Slots%20in%20YouTube%20Main%20Page.meta.js
+// @downloadURL https://raw.githubusercontent.com/porrinha09/Better-YouTube/main/Plugins/Hide%20Ads.js
+// @updateURL https://raw.githubusercontent.com/porrinha09/Better-YouTube/main/Plugins/Hide%20Ads.js
 // ==/UserScript==
 
 (function () {
