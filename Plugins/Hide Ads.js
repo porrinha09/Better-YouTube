@@ -4,7 +4,7 @@
 // @description	  Better YouTube
 // @version      1.0.0
 // @license      MIT
-// @author       Kelvin zv
+// @author       Dio
 // @match        https://www.youtube.com/*
 // @exclude      /^https?://\S+\.(txt|png|jpg|jpeg|gif|xml|svg|manifest|log|ini)[^\/]*$/
 // @icon         https://raw.githubusercontent.com/porrinha09/Better-YouTube/main/assets/BetterYouTube.png
