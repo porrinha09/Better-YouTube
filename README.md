@@ -5,14 +5,7 @@
 [discord-badge]: https://img.shields.io/badge/discord-green?labelColor=0c0d10&color=7289da&style=for-the-badge&logo=discord&logoColor=7289da
 [discord-link]: https://discord.gg/bnSUxedypU
 
-[website-badge]: https://img.shields.io/badge/website-green?labelColor=0c0d10&color=3a71c1&style=for-the-badge&logo=firefoxbrowser&logoColor=3a71c1
-[website-link]: https://betterdiscord.app
-
-[docs-badge]: https://img.shields.io/badge/docs-green?labelColor=0c0d10&color=3a71c1&style=for-the-badge&logo=readthedocs&logoColor=3a71c1
-[docs-link]: https://docs.betterdiscord.app
-
-
-BetterDiscord is a client modification for Discord with endless flexibility and addons. The only limit to the customization is your own imagination.
+Better YouTube is a mod client for YouTube that improves your experience with plugins and themes
 
 [![Theme Split](https://betterdiscord.app/resources/branding/split.png)](https://betterdiscord.app/)
 
