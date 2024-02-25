@@ -4,6 +4,7 @@
 // @include     /^http(|s)://www\.youtube\.com/watch\?v=.*$/
 // @grant       none
 // @author      Dio
+// @icon         https://raw.githubusercontent.com/porrinha09/Better-YouTube/main/assets/BetterYouTube.png
 // @version     1.0.0
 // @grant       none
 // @namespace   38a3e9648fc5260c75446e376a8dabb3
