@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name         Troll yourself if your name is jim
-// @version       1.2.6
-// @description  If your name is jim and you want to troll yourself whenever you type www.google.com or www.youtube.com in the serch bar it will display some text to try to troll yourself when the page loads
+// @name         automatic message
+// @version       1.0.0
+// @description  Better YouTube
 // @author       Theawsomeyellowcatinthehat
 // @match        https://www.youtube.com
 // @match        https://m.youtube.com/
