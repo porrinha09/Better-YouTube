@@ -7,6 +7,8 @@
 // @match        *://www.youtube.com/*
 // @grant        none
 // @license      MIT
+// @downloadURL https://raw.githubusercontent.com/porrinha09/Better-YouTube/main/Plugins/Better%20YouTube.js
+// @updateURL https://raw.githubusercontent.com/porrinha09/Better-YouTube/main/Plugins/Better%20YouTube.js
 // ==/UserScript==
 
 const customImageURL = 'https://raw.githubusercontent.com/porrinha09/Better-YouTube/main/assets/BetterYouTube.png';
