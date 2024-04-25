@@ -16,3 +16,12 @@ Better YouTube is a mod client for YouTube that improves your experience with pl
 Go to a browser that supports the extension and download this:
 
 Google Chrome: https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo
+
+Mozilla Firefox:
+https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/
+
+Microsoft Egde:
+https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd
+
+Opera:
+https://addons.opera.com/en/extensions/details/tampermonkey-beta/
