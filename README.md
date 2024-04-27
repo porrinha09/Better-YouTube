@@ -1,5 +1,6 @@
 <div align="center">
 
+![Logo]
 (https://raw.githubusercontent.com/porrinha09/Better-YouTube/main/assets/IMG_20240427_194848.png)
 
 [![Discord][discord-badge]][discord-link]
