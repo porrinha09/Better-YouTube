@@ -29,4 +29,5 @@ https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahm
 Opera:
 https://addons.opera.com/en/extensions/details/tampermonkey-beta/
 
-# Created by Kelvin zv
+# My Discord:
+weszin3
