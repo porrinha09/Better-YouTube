@@ -10,8 +10,6 @@
 # Better Discord - v1.0.0
 Better YouTube is a mod client for YouTube that improves your experience with plugins and themes
 
-# Created by Kelvin zv
-
 ![Better YouTube](https://raw.githubusercontent.com/porrinha09/Better-YouTube/main/assets/preview.jpg)
 
 </div>
@@ -30,3 +28,5 @@ https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahm
 
 Opera:
 https://addons.opera.com/en/extensions/details/tampermonkey-beta/
+
+# Created by Kelvin zv
