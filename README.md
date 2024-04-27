@@ -6,7 +6,6 @@
 [discord-link]: https://discord.gg/zZe47mksAN
 
 ![Better YouTube](https://raw.githubusercontent.com/porrinha09/Better-YouTube/main/assets/IMG_20240427_194848.png)
-![Uploading Screenshot_20240427-194653.png…]()
 
 Better YouTube is a mod client for YouTube that improves your experience with plugins and themes
 
