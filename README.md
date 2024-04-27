@@ -7,7 +7,7 @@
 
 ![Better YouTube](https://raw.githubusercontent.com/porrinha09/Better-YouTube/main/assets/IMG_20240427_194848.png)
 
-# Better Discord
+# Better Discord - v1.0.0
 Better YouTube is a mod client for YouTube that improves your experience with plugins and themes
 
 ![Better YouTube](https://raw.githubusercontent.com/porrinha09/Better-YouTube/main/assets/preview.jpg)
