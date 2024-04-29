@@ -15,18 +15,15 @@
 
     var senhaCorreta = "teste";
 
-    if (window.location.hostname === "www.youtube.com" && !localStorage.getItem("senhaDigitada")) {
-        function exibirMenuSenha() {
-            var senha = prompt("Digite a senha para acessar o YouTube:");
-
-            if (senha === senhaCorreta) {
-                localStorage.setItem("senhaDigitada", "true");
-            } else {
-                alert("Senha incorreta");
-                exibirMenuSenha();
-            }
+    function exibirMenuSenha() {
+        var senha = prompt("Digite a senha para acessar o YouTube:");
+        if (senha === senhaCorreta) {
+            location.reload();
+        } else {
+            alert("Senha incorreta");
+            exibirMenuSenha();
         }
-
-        exibirMenuSenha();
     }
+
+    exibirMenuSenha();
 })();
