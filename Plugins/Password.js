@@ -18,7 +18,6 @@
     function exibirMenuSenha() {
         var senha = prompt("Digite a senha para acessar o YouTube:");
         if (senha === senhaCorreta) {
-            location.reload();
         } else {
             alert("Senha incorreta");
             exibirMenuSenha();
